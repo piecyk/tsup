@@ -38,7 +38,7 @@ specifiers:
   ts-essentials: 9.1.2
   tsconfig-paths: 3.12.0
   tsup: 5.11.10
-  typescript: 4.5.4
+  typescript: 4.6.2
   vitest: ^0.2.5
   wait-for-expect: 3.0.2
 
@@ -74,15 +74,15 @@ devDependencies:
   postcss-simple-vars: 6.0.3_postcss@8.4.5
   prettier: 2.5.1
   resolve: 1.20.0
-  rollup-plugin-dts: 4.1.0_rollup@2.60.1+typescript@4.5.4
+  rollup-plugin-dts: 4.1.0_rollup@2.60.1+typescript@4.6.2
   rollup-plugin-hashbang: 2.2.2
   string-argv: 0.3.1
   strip-json-comments: 4.0.0
   svelte: 3.44.3
-  ts-essentials: 9.1.2_typescript@4.5.4
+  ts-essentials: 9.1.2_typescript@4.6.2
   tsconfig-paths: 3.12.0
-  tsup: 5.11.10_typescript@4.5.4
-  typescript: 4.5.4
+  tsup: 5.11.10_typescript@4.6.2
+  typescript: 4.6.2
   vitest: 0.2.5
   wait-for-expect: 3.0.2
 
@@ -1228,7 +1228,7 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  /rollup-plugin-dts/4.1.0_rollup@2.60.1+typescript@4.5.4:
+  /rollup-plugin-dts/4.1.0_rollup@2.60.1+typescript@4.6.2:
     resolution: {integrity: sha512-rriXIm3jdUiYeiAAd1Fv+x2AxK6Kq6IybB2Z/IdoAW95fb4uRUurYsEYKa8L1seedezDeJhy8cfo8FEL9aZzqg==}
     engines: {node: '>=v12.22.7'}
     peerDependencies:
@@ -1237,7 +1237,7 @@ packages:
     dependencies:
       magic-string: 0.25.7
       rollup: 2.60.1
-      typescript: 4.5.4
+      typescript: 4.6.2
     optionalDependencies:
       '@babel/code-frame': 7.16.0
     dev: true
@@ -1366,12 +1366,12 @@ packages:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
 
-  /ts-essentials/9.1.2_typescript@4.5.4:
+  /ts-essentials/9.1.2_typescript@4.6.2:
     resolution: {integrity: sha512-EaSmXsAhEiirrTY1Oaa7TSpei9dzuCuFPmjKRJRPamERYtfaGS8/KpOSbjergLz/Y76/aZlV9i/krgzsuWEBbg==}
     peerDependencies:
       typescript: '>=4.1.0'
     dependencies:
-      typescript: 4.5.4
+      typescript: 4.6.2
     dev: true
 
   /ts-interface-checker/0.1.13:
@@ -1386,7 +1386,7 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsup/5.11.10_typescript@4.5.4:
+  /tsup/5.11.10_typescript@4.6.2:
     resolution: {integrity: sha512-z8YzbPyF8Vvj37h+TY84AfvlmKZtBTRuWwRETWUbfckMj854WeLkuRQV8vRyoY8bLJQhnKWlLge/3fVbFZGERg==}
     hasBin: true
     peerDependencies:
@@ -1409,7 +1409,7 @@ packages:
       source-map: 0.7.3
       sucrase: 3.20.3
       tree-kill: 1.2.2
-      typescript: 4.5.4
+      typescript: 4.6.2
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -1420,8 +1420,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /typescript/4.5.4:
-    resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==}
+  /typescript/4.6.2:
+    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
